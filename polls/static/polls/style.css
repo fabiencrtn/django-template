@@ -1,0 +1,48 @@
+a {
+    color: white;
+}
+
+body {
+    background: #262626 url("images/inf.gif");
+/*    background: black url("images/lt5QxI.webp") no-repeat;*/
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0%;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.center {
+    position: absolute;
+    left: 40%;
+    margin-top: 10px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+  }
+
+  li{
+      color: white;
+  }
+
+div {
+    margin: 20% 10% 0 10%;
+}
