@@ -2,8 +2,6 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 
-
-
 <div>
     <a href="{% url 'polls:index' %}"> Back to the list of questions</a>
     <form action="{% url 'polls:vote' question.id %}" method="post">
@@ -22,7 +20,5 @@
     </form>
 </div>
     
-<footer>
-    <a href="admin/"> Admin access</a>
-</footer>
+
     
