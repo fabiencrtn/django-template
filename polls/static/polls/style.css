@@ -2,6 +2,13 @@ a {
     color: white;
 }
 
+.admin-link {
+    right: 0%;
+    position:right;
+    size: 100%;
+    color: blue;
+}
+
 body {
     background: #262626 url("images/inf.gif");
 /*    background: black url("images/lt5QxI.webp") no-repeat;*/

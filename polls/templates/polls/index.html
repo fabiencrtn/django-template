@@ -2,6 +2,12 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 
+<a  href="admin/" 
+    class="admin-link"> 
+    Admin access
+
+</a>
+
 {% if latest_question_list %}
 <div>
     
@@ -15,3 +21,7 @@
     <p>No polls are available.</p>
     {% endif %}
 </div>
+
+
+<footer>
+</footer>
